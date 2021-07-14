@@ -116,7 +116,7 @@ body {
     .football-logo img {
         height: 110px;
         width: 484px;
-    }
+    }   
     .fab {
         height: 32px;
         width: 32px;
@@ -190,3 +190,77 @@ body {
         width: 260px;
     }    
 }
+                /* media query 
+                for Tablet  */
+    @media only screen and (min-width:689px) and ( max-width:992px)  {
+        .top-bar {
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap:0px;
+    width: 750px;
+    height: 695px;
+}
+.title-bar {
+    padding: 40px 66px 50px 10px;
+}
+.title-bar h1 {
+    height: 138px;
+    width: 278px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.banner-bar img {
+    width: 350px;
+    height:250px;
+    padding-left: 80px;
+}
+.banner-bar img:hover {
+    transform:scale(1.2) translate(-10px,-15px);
+}
+                /* main */
+        /* section-1 */
+    .footballers {
+        grid-template-columns: repeat(2,1fr);
+        padding:12px 3px 5px 3px;
+        width: 330px;    
+    }
+    .footballer{
+        height: 475px;
+        weight: 200px;
+        margin-right:10px;
+    }
+    .footballer-info img {
+        width:100%;
+        height:256px;
+        border-radius: 10px;
+    }
+    .football-news {
+        width: 480px;
+        padding-right:80px;
+        padding-left: 80px;
+    }
+    .football-blog {
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+    .blog-detail {
+        width:480px;
+        height:300px;
+        padding-bottom: 40px;
+    }
+    .blog-detail h2 {
+        font-size:30px;
+    }
+    .blog-banner img {
+        width: 350px;
+        height: 220px;
+        margin-bottom: 30px;
+    }
+                /* footer */
+    footer {
+        padding: 40px 71px 63px 60px;
+    }
+    .football-logo img {
+        height: 100px;
+        width: 350px;
+    }
+    }
